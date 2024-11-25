@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgb(102, 203, 243);
+    background-color: rgb(49,96,224,255);
     height: 150px;
     padding: 3% 60px;
 }
@@ -18,48 +18,66 @@ header{
     justify-content: space-between;
     align-items: center;
     
-    background-color: orange;
-
-
+    /* background-color: orange; */
 }
 
+
 .logo{
+    color: #fff;
     height: 100%;
-    background-color: orange;
-    border: 3px dashed black ;
+    /* background-color: orange; */
+    /* border: 3px dashed black ; */
     width: 20%;
     display: flex;
     align-items: center;
+
 }
 
+div>a{
+    color: #fff;
+}
 
 .menu{
     height: 100%;
-    border: 3px dashed black ;
+    /* border: 3px dashed black ; */
     width: 60%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
 
+.login{
+    color: #fff;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
 
 
 #section2{
     height: 400px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image:url(../img/jumbo.png);
+    background-size: 80%;
+    background-size: cover;
 }
 
 #div1{
    
-    background-color: plum;
+    /* background-color: plum; */
     padding: 50px 0;
     height: 80%;
     width: 40%;
     border: 2px dashed black; 
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bordo{
