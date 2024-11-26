@@ -105,6 +105,15 @@ h1{
     color: #fff;
 }
 
+.button3{
+    border-radius: 999px;
+    padding: 6px 6px;
+    border: none;
+    background-color: rgba(141,161,226,255);
+    color: #fff;
+    margin-top: 10px;
+}
+
 .bordo{
     height: 500px;
     width: 100%;
@@ -164,7 +173,7 @@ h1{
 }
 
 .bordo2{
-    height: 700px;
+    height: 900px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -172,10 +181,27 @@ h1{
 }
 
 #box-verde{
-    background-color: green;
-    height: 600px;
+    /* background-color: green; */
+    height: 100%;
     width: 60%;
-    border: 2px dashed black; 
+    /* border: 2px dashed black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box-verde h2{
+    font-size: 35px;
+    margin:50px 0 30px 0;
+}
+
+#box-verde p{
+    font-size: 20px;
+    
+}
+
+#box-verde h3{
+    font-size: 25px;
 }
 
 .sezione-footer{
